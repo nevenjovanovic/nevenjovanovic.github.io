@@ -1,0 +1,21 @@
+# Site settings
+title: Opera et dies
+header-img: img/home-bg.jpg
+email: neven.jovanovic@ffzg.hr
+copyright_name: Neven Jovanovic
+description: "Working notes on digital philology"
+baseurl: ""
+url: "http://nevenjovanovic.github.io"
+twitter_username: croala
+github_username:  nevenjovanovic
+facebook_username:  croala
+email_username:  neven.jovanovic@ffzg.hr
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
