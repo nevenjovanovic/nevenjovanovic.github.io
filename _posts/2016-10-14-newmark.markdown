@@ -21,7 +21,9 @@ In his [Textbook on Translation](http://www.worldcat.org/title/textbook-of-trans
 7. Free translation
 8. Adaptation (strongest emphasis on TL)
 
-Newmark provides the following descriptions of his levels:
+## Levels explained
+
+Newmark provides the following descriptions of his levels (I quote from his book, ommiting mostly examples):
 
 **Word-for-word translation** is often demonstrated as interlinear translation, with the TL immediately below the SL words. The SL word-order is preserved and the words translated singly by their most common meanings, out of context. Cultural words are translated literally.
 
@@ -39,9 +41,13 @@ Newmark provides the following descriptions of his levels:
 
 **Adaptation** is the 'freest' form of translation. It is used mainly for plays (comedies) and poetry; the themes, characters, plots are usually preserved, the SL culture converted to the TL culture and the text rewritten.
 
-Newmark does not write as a theoretician or a researcher of translation. He clearly prefers some methods, distrusts others. His aims are mostly pedagogical -- he wants to *educate* future translators, to lead them towards what he considers best. 
+## An empirical perspective
 
-For our purposes, however -- we need to offer our annotators of translations a common framework in which they will judge distances between the source and the target, for each individual word or phrase -- Newmark's scale can be simplified.
+Newmark does not write as a theoretician or a researcher, but as somebody with a lot of practical experience. His presentation of "methods" make it clear that he prefers some of them, distrusts others. It is equally clear that Newmark's aims are primarily pedagogical.  He wants to *educate* future translators, to lead them towards what he considers best. 
+
+For our purposes, however -- because we need to offer our annotators of translations a common framework in which they will judge distances between the source and the target, for each individual word or phrase -- Newmark's scale can be simplified.
+
+## Scale of translation methods, simplified
 
 It has to be noted that our categories have to be applicable to *individual* words and phrases. They are not meant to be assesments of a translation as a whole.
 
@@ -55,3 +61,5 @@ This is my proposition:
 6. **Additions**: TL words or phrases added
 7. **I don't know.**
 8. **Wrong**: the translator made a mistake
+
+Some examples should be provided.
