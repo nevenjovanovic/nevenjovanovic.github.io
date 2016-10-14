@@ -51,7 +51,7 @@ For our purposes, however -- because we need to offer our annotators of translat
 
 It has to be noted that our categories have to be applicable to *individual* words and phrases. They are not meant to be assesments of a translation as a whole.
 
-This is my proposition:
+The proposition consists of three sets. The set 1-4 is inspired by Newmark and presents the actual continuum. The set 5-7 deals with translator's omissions, additions, and (eventual) mistakes. The last category is reserved for truly interesting cases, as usual.
 
 1. **Metaphrasis** (word-for-word): closest to SL, independent of context (the chosen translation of a word or phrase would be applicable everywhere), retains syntactical structure of the SL as far as possible
 2. **Faithful translation**: close to SL, but dependent on context (without the surrounding words, we cannot *predict* that a translation will be chosen, though the solution can be found by reading a dictionary article), or adapting the syntactical structure to better suit the TL
@@ -59,7 +59,7 @@ This is my proposition:
 4. **Paraphrasis**: reproduces the gist of the original, but distorts nuances of meaning and syntax
 5. **Omissions**: SL words or phrases omitted in the TL version
 6. **Additions**: TL words or phrases added
-7. **I don't know.**
-8. **Wrong**: the translator made a mistake
+7. **Wrong**: the translator made a mistake
+8. **I don't know.**
 
 Some examples should be provided.
