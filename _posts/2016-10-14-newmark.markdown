@@ -2,23 +2,26 @@
 layout:     post
 title:      "Newmark on translation methods"
 subtitle:   "A continuum between the literal and the free"
-date:       2016-10-14 13:17:00
+date:       2016-10-14 12:00:00
 author:     "Neven Jovanović"
-header-img: "img/post-bg-06.jpg"
+header-img: "img/post-bg-02.jpg"
+permalink: /newmark-on-translation/
 ---
 
-In his Textbook on Translation, Peter Newmark proposes to look at translation methods as a continuum between the emphasis on Source Language (SL) and the emphasis on Target Language (TL). Newmark then considers a scale of eight levels:
+# Peter Newmark on translation, adapted for alignment
 
-+ Word-for-word translation (strongest emphasis on SL)
-+ Literal translation
-+ Faithful translation
-+ Semantic translation
-+ Communicative translation (emphasis on TL starts to dominate)
-+ Idiomatic translation
-+ Free translation
-+ Adaptation (strongest emphasis on TL)
+In his [Textbook on Translation](http://www.worldcat.org/title/textbook-of-translation/oclc/473215438), Peter Newmark proposes to look at translation methods as a continuum between the emphasis on Source Language (SL) and the emphasis on Target Language (TL). Newmark then considers a scale of eight levels:
 
-Newmark provides following descriptions of his levels:
+1. Word-for-word translation (strongest emphasis on SL)
+2. Literal translation
+3. Faithful translation
+4. Semantic translation
+5. Communicative translation (emphasis on TL starts to dominate)
+6. Idiomatic translation
+7. Free translation
+8. Adaptation (strongest emphasis on TL)
+
+Newmark provides the following descriptions of his levels:
 
 **Word-for-word translation** is often demonstrated as interlinear translation, with the TL immediately below the SL words. The SL word-order is preserved and the words translated singly by their most common meanings, out of context. Cultural words are translated literally.
 
@@ -36,7 +39,19 @@ Newmark provides following descriptions of his levels:
 
 **Adaptation** is the 'freest' form of translation. It is used mainly for plays (comedies) and poetry; the themes, characters, plots are usually preserved, the SL culture converted to the TL culture and the text rewritten.
 
-Newmark does not write as a theoretician or a researcher of translation; his preferences and opinions are clearly stated, and his aims are mostly pedagogical -- he wants to *educate* future translators. This means that, for our purposes -- and we need to tell the annotators of translations how to judge distances between the source and the target, for each individual word or phrase -- Newmark's scale can be simplified.
+Newmark does not write as a theoretician or a researcher of translation. He clearly prefers some methods, distrusts others. His aims are mostly pedagogical -- he wants to *educate* future translators, to lead them towards what he considers best. 
+
+For our purposes, however -- we need to offer our annotators of translations a common framework in which they will judge distances between the source and the target, for each individual word or phrase -- Newmark's scale can be simplified.
+
+It has to be noted that our categories have to be applicable to *individual* words and phrases. They are not meant to be assesments of a translation as a whole.
 
 This is my proposition:
 
+1. **Metaphrasis** (word-for-word): closest to SL, independent of context (the chosen translation of a word or phrase would be applicable everywhere), retains syntactical structure of the SL as far as possible
+2. **Faithful translation**: close to SL, but dependent on context (without the surrounding words, we cannot *predict* that a translation will be chosen, though the solution can be found by reading a dictionary article), or adapting the syntactical structure to better suit the TL
+3. **Idiomatic translation**: solutions closer to TL than to SL, using language that is acceptable and comprehensible to SL readers
+4. **Paraphrasis**: reproduces the gist of the original, but distorts nuances of meaning and syntax
+5. **Omissions**: SL words or phrases omitted in the TL version
+6. **Additions**: TL words or phrases added
+7. **I don't know.**
+8. **Wrong**: the translator made a mistake
