@@ -6,9 +6,9 @@ copyright_name: Neven Jovanovic
 description: "Working notes on digital philology"
 baseurl: ""
 url: "http://nevenjovanovic.github.io"
-twitter_username: croala
+# twitter_username: croala
 github_username:  nevenjovanovic
-facebook_username:  croala
+facebook_username:  neven.jovanovic.52
 email_username:  neven.jovanovic@ffzg.hr
 
 # Build settings
