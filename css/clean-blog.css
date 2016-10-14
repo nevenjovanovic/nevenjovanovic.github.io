@@ -45,7 +45,8 @@ body {
 }
 
 p a {
-  text-decoration: underline;
+    /*  text-decoration: underline; */
+    color: #cb4b16;
 }
 h1,
 h2,
