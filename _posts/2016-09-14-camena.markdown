@@ -14,7 +14,7 @@ permalink: /camena-republished/
 
 Since the machine-readable texts of CAMENA were made available under the Creative Commons Attribution / Share Alike license, I am republishing the XML files of all the CAMENA collections as a Github repository, to enable further digital experiments with CAMENA Neo-Latin material.
 
-The repository is [on Github](https://github.com/nevenjovanovic/camena-neolatinlit); we welcome all corrections and improvements, and suggest that you propose them as [issues](https://guides.github.com/features/issues/) or as a [pull requests](https://guides.github.com/activities/forking/) from your fork.
+The repository is [on Github](https://github.com/nevenjovanovic/camena-neolatinlit); we welcome all corrections and improvements, and suggest that you propose them as [issues](https://guides.github.com/features/issues/) or as [pull requests](https://guides.github.com/activities/forking/) from your fork.
 
 Should the repository grow, in any direction? (New texts? Additional encoding and annotations?) I would be more than happy to discuss this as well!
 
