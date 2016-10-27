@@ -14,6 +14,8 @@ permalink: /camena-republished/
 
 Since the machine-readable texts of CAMENA were made available under the Creative Commons Attribution / Share Alike license, I am republishing the XML files of all the CAMENA collections as a Github repository, to enable further digital experiments with CAMENA Neo-Latin material.
 
-The repository is [on Github](https://github.com/nevenjovanovic/camena-neolatinlit). It contains **949** XML files in its POEMATA section, **382** files in the HISTORICA & POLITICA, **296** files in the THESAURUS ERUDITIONIS, and **124** files in CERA, with the total of **1751** files. These files contain **50,458,045** words (tokens) below the `text` element 
+The repository is [on Github](https://github.com/nevenjovanovic/camena-neolatinlit); we welcome all corrections and improvements. 
+
+The CAMENA Github repository contains **949** XML files in its POEMATA section, **382** files in the HISTORICA & POLITICA, **296** files in the THESAURUS ERUDITIONIS, and **124** files in CERA, with the total of **1751** files. These files contain **50,458,045** words (tokens) below the `text` element.
 
 Sincere gratitude goes to people involved in CAMENA for all their efforts, and for making this possible. *Sumus nani gigantum humeris insidentes.*
