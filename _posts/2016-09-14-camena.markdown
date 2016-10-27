@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "CAMENA texts republished on Github"
+subtitle:   "Fifty million Neo-Latin words as a CC-BY-SA collection"
+date:       2016-09-14 12:00:00
+author:     "Neven Jovanović"
+header-img: "img/pexels-photo-111147.jpeg"
+permalink: /camena-republished/
+---
+
+# CAMENA Neo-Latin texts republished on Github
+
+[CAMENA (Corpus Automatum Multiplex Electorum Neolatinitatis Auctorum)](http://www.uni-mannheim.de/mateo/camenahtdocs/camena.html) was a DFG-funded research project carried out at the German Department of Heidelberg University Chair of German Literature (Modern Period), in cooperation with the Information Technology Center and the Library of the University of Mannheim, and led by [Prof. Dr. Wilhelm Kühlmann](http://www.gs.uni-heidelberg.de/personen/kuehlmann.html); we have to be particularly thankful to the *spiritus movens* of [Wolfgang Schibel](http://www.viaf.org/viaf/30212918), as well as to Reinhard Gruhl, Emir Zuljevic, Heinz Kredel, and other members of the team. The project was active from 1999 to 2013; in my opinion, it was one of the most important Neo-Latin digital initiatives.
+
+Since the machine-readable texts of CAMENA were made available under the Creative Commons Attribution / Share Alike license, I am republishing the XML files of all the CAMENA collections as a Github repository, to enable further digital experiments with CAMENA Neo-Latin material.
+
+The repository is [on Github](https://github.com/nevenjovanovic/camena-neolatinlit). It contains **949** XML files in its POEMATA section, **382** files in the HISTORICA & POLITICA, **296** files in the THESAURUS ERUDITIONIS, and **124** files in CERA, with the total of **1751** files. These files contain **50,458,045** words (tokens) below the `text` element 
+
+Sincere gratitude goes to people involved in CAMENA for all their efforts, and for making this possible. *Sumus nani gigantum humeris insidentes.*
