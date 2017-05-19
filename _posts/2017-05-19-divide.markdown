@@ -1,0 +1,83 @@
+---
+layout:     post
+title:      "Divide et impera: analyzing CTS URNs"
+date:       2017-05-19 20:39:00
+author:     "Neven Jovanović"
+header-img: "img/pexels-photo-24556.jpg"
+permalink: /divide-et-impera/
+---
+
+# Divide et impera: analyzing CTS URNs
+
+One of the by-products of the very interesting [Digital Classics](http://www.haw.uni-heidelberg.de/md/haw/forschung/win-kolleg/digital_classics_2017.pdf) conference in Heidelberg (11-13 May 2017) was that it got me thinking about a better way to analyze CTS URNs. A CTS URN, which should, in a scholarly edition, identify any segment of a text its editor considers worth identifying and citing, consists of segments separated by colons. The first segment identifies the protocol (and is always `urn`), the second identifies the namespace (and is always `cts`). The third identifies the collection, the fourth the edition or its version, and the fifth points to a segment of the text.
+
+Therefore, a CTS may look like this:
+
+![An example of a CTS URN from the CroALa collection](/img/cts-urn.png)
+
+The best way to deal with CTS URNs turned out to be the most systematic one: tokenize the URN into its five principal parts, check whether the first two are `cts` and `urn` respectively, check whether the third one belongs to collections on our server (`latinLit`, `croala`, `latty`), and use the last two parts to identify the node in one of our XML documents. To access the documents we use BaseX, and the documents are parts of an XML database. The database is indexed, and the index to a document is structured like this:
+
+````xml
+
+<doc n="urn:cts:latinLit:phi0472.phi001.perseus-lat2.simple">
+  <textgroup>Catullus</textgroup>
+  <work>Poems, Catullus - simplified markup</work>
+  <cts>
+    <urn>div1</urn>
+    <dbid>4045</dbid>
+  </cts>
+  <cts>
+    <urn>div1.1</urn>
+    <dbid>4050</dbid>
+  </cts>
+  <cts>
+    <urn>div1.1.Phalaecean</urn>
+    <dbid>4055</dbid>
+  </cts>
+  <cts>
+    <urn>div1.1.1</urn>
+    <dbid>4059</dbid>
+  </cts>
+(...)
+</doc>
+
+````
+The `dbid` element holds the numeric node identifier from the main textual database; it enables the quickest access to the relevant node. When the main database is rebuilt, the index database is refreshed as well.
+
+During a sunny afternoon, I have managed to tokenize and analyze a CTS URN, and to access the node identified by it, by writing three simple XQuery functions. The first one, called `cts_tokenize`, tokenizes the URN on colons:
+
+````xquery
+
+declare function local:cts_tokenize($cts){
+  let $ctsstring := string($cts)
+  return if (contains($ctsstring, ":")) then local:cts_analyze(tokenize($ctsstring, ":"))
+  else "This is not a well-formed URN!"
+};
+
+````
+
+The second (`cts_analyze`, called from the first) checks items in the sequence produced by tokenizing the CTS:
+
+````xquery
+
+declare function local:cts_analyze($cts){
+  if ($cts[1]="urn" and $cts[2] = "cts" and $cts[3] = ("latinLit", "croala", "latty")) then local:cts_return_doc($cts[position() > 3])
+  else "This URN is not part of our collections."
+};
+
+````
+
+The third function, `cts_return_doc`, accesses the index collection to retrieve from the `doc` identified by the fourth part of the CTS the `cts` node (the first item in our sequence) whose `urn` child is identical to the fifth CTS part (the second item in the sequence).
+
+````xquery
+
+declare function local:cts_return_doc ($cts_last) {
+  if (count($cts_last) = 2) then
+  let $idx := collection("catullus-cts-idx2")//doc[ends-with(@n , $cts_last[1])]
+  let $idx_locus := $idx/cts[urn=$cts_last[2]]
+  return $idx_locus
+  else "The URN does not correspond to anything in our collection!"
+};
+
+````
+The whole thing turned out to be simpler than I've thought. It only took several minutes of concentration. Now I have the basis for a "CTS Xquery" function module.
