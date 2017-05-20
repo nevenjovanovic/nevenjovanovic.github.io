@@ -99,7 +99,7 @@ Starting with the simpler cases, I have tried to see how to extend the XML index
 
 ````
 
-The XQuery script which creates this structure is called[indexRecordPathsPrevFol.xq](https://github.com/nevenjovanovic/catullus-cts/blob/master/scripts/indexRecordPathsPrevFol.xq) in our experimental database with Catullus's poems. When run with a command such as `../../../Apps/basex/bin/basex -v indexRecordPathsPrevFol.xq` (it should be run from the directory in which the script resides), it produces the XML index file. From the file, the XML database indexing the main database can be created. There is also a schema to validate the XML file: [ctsindex.rng](https://github.com/nevenjovanovic/catullus-cts/blob/master/schemas/ctsindex.rng)
+The XQuery script which creates this structure is called  [indexRecordPathsPrevFol.xq](https://github.com/nevenjovanovic/catullus-cts/blob/master/scripts/indexRecordPathsPrevFol.xq) in our experimental database with Catullus's poems. When run with a command such as `../../../Apps/basex/bin/basex -v indexRecordPathsPrevFol.xq` (it should be run from the directory in which the script resides), it produces the XML index file. From the file, the XML database indexing the main database can be created. There is also a schema to validate the XML file: [ctsindex.rng](https://github.com/nevenjovanovic/catullus-cts/blob/master/schemas/ctsindex.rng)
 
 This, of course, again adds redundancy to the XML index (and the database created from it, and the whole process...), but makes basic navigation easier and, I hope, faster.
 
