@@ -4,7 +4,7 @@ title:      "Up and down, prev and next with CTS URNs"
 subtitle:   "Thinking about navigation in a scholarly edition"
 date:       2017-05-20 12:00:00
 author:     "Neven Jovanović"
-header-img: "img/navigation.jpeg"
+header-img: "img/navigation.jpg"
 permalink: /navigation-xml/
 ---
 
