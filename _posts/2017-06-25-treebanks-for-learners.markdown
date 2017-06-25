@@ -4,13 +4,13 @@ title:      "Treebanks for learners"
 subtitle:   "Finding simple phrases with XQuery and dependency trees"
 date:       2017-06-25 23:00:00
 author:     "Neven Jovanović"
-header-img: "img/typing-vintage-technology-keyboard.jpg"
-permalink: /trreebanks-for-learners/
+header-img: "img/tree-pexels-photo-38136.jpeg"
+permalink: /treebanks-for-learners/
 ---
 
 # Treebanks as a learners' corpus
 
-Morphologically annotated corpora are usually seen -- at least in Greek and Latin philology -- as a scholarly resource. But they can be used to teach and learn Greek and Latin as well. We can use *parts* of annotated sentences as material for exercises.
+Morphologically annotated corpora are usually seen -- at least in Greek and Latin philology -- as scholarly resources. But they can be used to teach and learn Greek and Latin as well. We can use *parts* of annotated sentences as material for exercises.
 
 We want to start simple, very simple: let's offer our learners some prepositional phrases and some predicate - object (V - O) sentence fragments. First, we have to find them in the treebank.
 
