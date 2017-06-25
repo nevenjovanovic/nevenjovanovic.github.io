@@ -33,16 +33,17 @@ Retrieving of words dependent on the preposition is then done by a recursive fun
 declare function local:down_tree($root){
   let $id := $root/@id
   let $down_t := $root/../*:token[@head-id=$id]
-  (: check if the dependent word is itself a head of some other word :)
+  (: check if there is a dependent word :)
   return if ($down_t[@head-id]) 
-  (: if it is, the function should recursively call itself :)
+  (: if there is one, the function should recursively call itself :)
+  (: to retrieve other dependent words :)
          then ( $down_t/@form/string() , local:down_tree($down_t) )
   else $down_t/@form/string()
 };
 
 ```
 
-Running this function against the Latin part of our `proiel-biblia-tb` database, we learn something about the limitations of annotated treebanks:
+Running the script against the Latin part of our `proiel-biblia-tb` database, we learn something about the limitations of annotated treebanks:
 
 ```xml
 
@@ -88,9 +89,6 @@ Running this function against the Latin part of our `proiel-biblia-tb` database,
 
 ```
 
-While the results such as the first three are immediately useful, the last three should be modified before we can integrate them in an exercise. The word order is not right. Here I can only agree with James Tauber's insight -- the [treebanks are not a tool for everything we do with language](https://jktauber.com/2017/05/24/comparing-analyses-herodotus/). They simply cannot capture some linguistic features -- for example, those connected with word order: informational structure and stylistic effects.
+While the results such as the first three are immediately useful ("ab intus de corde hominum"), the last three should be modified before we can integrate them in an exercise. "In non cor eius"? The word order is not right! Here I can only agree with James Tauber's insight -- [treebanks are not a tool for everything we want to do with language](https://jktauber.com/2017/05/24/comparing-analyses-herodotus/). Treebanks cannot capture some linguistic features. For example, the features connected with word order: informational structure and stylistic effects.
 
-Now, however, we have a brief and relatively simple XQuery that can pull out mostly meaningful fragments from a dependency treebank. And the same script should work for Greek and Old Church Slavonic, but more about that experiment later.
-
-
-```
+Now, however, we have a brief and relatively simple XQuery that pulls out (mostly) meaningful prepositional phrase-fragments from a dependency treebank. And the same script should work for Greek and Old Church Slavonic, but more about *that* experiment later.
