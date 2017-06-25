@@ -12,11 +12,11 @@ permalink: /treebanks-for-learners/
 
 Morphologically annotated corpora are usually seen -- at least in Greek and Latin philology -- as scholarly resources. But they can be used to teach and learn Greek and Latin as well. We can use *parts* of annotated sentences as material for exercises.
 
-We want to start simple, very simple: let's offer our learners some prepositional phrases and some predicate - object (V - O) sentence fragments. First, we have to find them in the treebank.
+We want to start simple, very simple: let's offer our learners some prepositional phrases and some predicate - object (V - O) sentence fragments. The initial step is to find such phrases in the treebank and retrieve them.
 
-My experiment has been done with the PROIEL treebank, for two reasons. First, it is one of the two Greek and Latin treebanks available under a CC license. Second, it contains New Testament in Greek and Latin. Regardless of the religious and moralistic part of the experience, I have to agree with [Dwane Thomas](https://dwanethomas.com/the-vulgate-latin-course/) -- the Vulgate is a great place to find real, but stylistically simple Latin; "start with the easy books before you jump into the hard ones" is always a great advice.
+My experiment has been done with the [PROIEL treebank](https://proiel.github.io/), for two reasons. First, it is one of the two Greek and Latin treebanks available under a CC license. Second, it contains New Testament in Greek and Latin. Regardless of the religious and moralistic part of the experience, I have to agree with [Dwane Thomas](https://dwanethomas.com/the-vulgate-latin-course/) -- the Vulgate is a great place to find real, but stylistically simple Latin; "start with the easy books before you jump into the hard ones" is always a great advice.
 
-PROIEL has annotated a lot of simple Greek and Latin phrases. And how do we find them? In my case, by writing several XQuery functions. Two, basically identical, XQuery scripts are in the [Discipulus working repository](https://bitbucket.org/nevenjovanovic/discipulus) on Bitbucket -- one to find [prepositional phrases](https://bitbucket.org/nevenjovanovic/discipulus/src/18eb4ecae815001619d661be295287841954360d/scripts/PROIELGetPrepositionalPhrasesRecursive.xq?at=master) and one to find [verbs with objects](https://bitbucket.org/nevenjovanovic/discipulus/src/18eb4ecae815001619d661be295287841954360d/scripts/PROIELGetPredObj.xq?at=master). Here I'll comment on more interesting parts of the scripts.
+By annotating the books of the New Testament, PROIEL has annotated a lot of simple Greek and Latin phrases. And how do we retrieve them? In my case, by writing several XQuery functions. Two, basically identical, XQuery scripts are in the [Discipulus working repository](https://bitbucket.org/nevenjovanovic/discipulus) on Bitbucket -- one to find [prepositional phrases](https://bitbucket.org/nevenjovanovic/discipulus/src/18eb4ecae815001619d661be295287841954360d/scripts/PROIELGetPrepositionalPhrasesRecursive.xq?at=master) and one to find [verbs with objects](https://bitbucket.org/nevenjovanovic/discipulus/src/18eb4ecae815001619d661be295287841954360d/scripts/PROIELGetPredObj.xq?at=master). Here I'll comment on more interesting parts of the scripts.
 
 The structure of PROIEL XML files makes it possible to limit searches to specific books and chapters of the New Testament. We retrieve prepositions using an XPath like this: 
 
@@ -39,6 +39,8 @@ declare function local:down_tree($root){
          then ( $down_t/@form/string() , local:down_tree($down_t) )
   else $down_t/@form/string()
 };
+
+```
 
 Running this function against the Latin part of our `proiel-biblia-tb` database, we learn something about the limitations of annotated treebanks:
 
