@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Lemmatize Neo-Latin with LemLat"
-subtitle:   "Testing the LemLat (CIRCSE)"
+title:      "Lemmatize Neo-Latin with LEMLAT"
+subtitle:   "An exploratory test of a Latin language processing tools by CIRCSE"
 date:       2017-07-19 23:00:00
 author:     "Neven Jovanović"
 header-img: "img/pexels-photo-248559.jpeg"
@@ -25,7 +25,7 @@ Lemmatization is also a basic natural language processing task, one of the first
 
 # LEMLAT 3.0
 
-Marco Passarotti, leader of the Index Thomisticus Treebank Project, recently suggested I should test how their LEMLAT lemmatizer performs on our Neo-Latin texts. I thought this was a great idea, and here are my notes on the setup and on the very first results.
+Marco Passarotti, leader of the [Index Thomisticus Treebank Project](http://itreebank.marginalia.it/), recently suggested I should test how their LEMLAT lemmatizer performs on our Neo-Latin texts. I thought this was a great idea, and here are my notes on the setup and on the very first results.
 
 LEMLAT exists as a [web service](http://www.ilc.cnr.it/lemlat/lemlat/index.html), and it can be queried by a script issuing requests such as `http://www.ilc.cnr.it/lemlat/cgi-bin/LemLat_cgi.cgi?wordform=iuveni`. But it turned out to be too slow -- lemmatization of some 2100 entries from [Nicholas of Modruš's funerary speech for Pietro Riario](https://github.com/nevenjovanovic/modruski-temrezah) (XML DB `modr-riar-texts` in my computer) took over 20 minutes. I used this XQuery to try that out:
 
