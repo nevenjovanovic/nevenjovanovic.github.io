@@ -13,8 +13,10 @@ permalink: /lemmatize-neo-latin-lemlat/
 We *lemmatize* a word (or try to) each time we have to look it up in a dictionary, where it is listed in its canonical form. In Latin, canonical forms are traditionally nominatives (for nominals), first persons singular (for verbs); words without inflected forms are easier to look up... unless we need to look up *cum* or *quod*, of course.
 
 Lemmatization is also a basic natural language processing task, one of the first operations we want to do if we want computers to "know" anything about a text in a flective language such as Latin. At the moment, there are several Latin lemmatizers around: 
+
 + the late William Whitaker's [WORDS](http://mk270.github.io/whitakers-words/index.html) (currently [maintained by Martin Keegan](https://github.com/mk270/whitakers-words) on GitHub) 
-+ Perseus's [Morpheus](https://github.com/PerseusDL/morpheus), the [LEMLAT by CIRCSE](https://github.com/CIRCSE/LEMLAT3)
++ Perseus's [Morpheus](https://github.com/PerseusDL/morpheus)
++ the [LEMLAT by CIRCSE](https://github.com/CIRCSE/LEMLAT3)
 + lemmatizers provided by the [CLTK](http://cltk.org/)
 + [Collatinus](https://github.com/biblissima/collatinus)
 + [PREPRO's Latin parser](https://prepro.hucompute.org/) (Goethe-Universität, Frankfurt/Main)
