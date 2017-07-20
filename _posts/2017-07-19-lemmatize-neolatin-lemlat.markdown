@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Lemmatize Neo-Latin with LEMLAT"
-subtitle:   "An exploratory test of a Latin language processing tools by CIRCSE"
+subtitle:   "An exploratory test of a Latin language processing tool by CIRCSE"
 date:       2017-07-19 23:00:00
 author:     "Neven Jovanović"
 header-img: "img/pexels-photo-248559.jpeg"
