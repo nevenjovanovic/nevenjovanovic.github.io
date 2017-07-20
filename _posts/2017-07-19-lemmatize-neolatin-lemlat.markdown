@@ -96,7 +96,17 @@ Some of the words are proper names or adjectives derived from them (Modrusiensis
 
 # Unknown to LEMLAT, how about others?
 
-There remain, however, seven Latin word forms which I would expect to have beeen lemmatized: *gratitudinis, memoriter, nescierit, nosse, norunt, quamobrem, quotannis*. All of them except for *gratitudo* are lemmatized correctly by the CLTK LemmaReplacer lemmatizer (invoked in a Python script with `from cltk.stem.lemma import LemmaReplacer`). [Whitaker's Words Online](http://latin.ucant.org/) lemmatizes them all (*gratitudo* as well!) and provides correct information on their part of speech features. [Collatinus (web)](http://outils.biblissima.fr/fr/collatinus-web/) cannot lemmatize *gratitudinis, memoriter*, and *norunt*. [PREPRO](https://prepro.hucompute.org/) lemmatizes correctly only *memoriter* and *quotannis*, provides wrong part of speech information for *quamobrem*, and fails on other forms (perhaps it expects to be given a sentence? Also, the large lexicon compiled from various sources, accessible at [collex.hucompute.org](http://collex.hucompute.org/), seems to be much better place to start lemmatizing -- if only I knew how to batch query it). Perseus's Morpheus, accessible as a web service through requests such as `http://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat&word=memoriter`, does not recognize *gratitudo*, similarly to the CLTK lemmatizer, but lemmatizes correctly everything else.
+There remain, however, seven Latin word forms which I would expect to have beeen lemmatized: *gratitudinis, memoriter, nescierit, nosse, norunt, quamobrem, quotannis*. 
+
+All of them except for *gratitudo* are lemmatized correctly by the CLTK LemmaReplacer lemmatizer (invoked in a Python script with `from cltk.stem.lemma import LemmaReplacer`). 
+
+[Whitaker's Words Online](http://latin.ucant.org/) lemmatizes them all (*gratitudo* as well!) and provides correct information on their part of speech features. 
+
+[Collatinus (web)](http://outils.biblissima.fr/fr/collatinus-web/) cannot lemmatize *gratitudinis, memoriter*, and *norunt*. 
+
+[PREPRO](https://prepro.hucompute.org/) lemmatizes correctly only *memoriter* and *quotannis*, provides wrong part of speech information for *quamobrem*, and fails on other forms (perhaps it expects to be given a sentence?); actually, the large lexicon compiled by the PREPRO team from various sources, accessible at [collex.hucompute.org](http://collex.hucompute.org/), seems to be much better place to start lemmatizing -- if only I knew how to batch query it. 
+
+Perseus's Morpheus, accessible as a web service through requests such as `http://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat&word=memoriter`, does not recognize *gratitudo*, similarly to the CLTK lemmatizer, but lemmatizes correctly everything else.
 
 So, the top list of lemmatizers for words unknown to LEMLAT from the Nicholas of Modruš's speech for Riario:
 
@@ -105,4 +115,4 @@ So, the top list of lemmatizers for words unknown to LEMLAT from the Nicholas of
 3. Collatinus (web)
 4. PREPRO
 
-This was, of course, just a quick and dirty exploration. A real [product testing](https://en.wikipedia.org/wiki/Product_testing) comparison of lemmatizers would include feeding all of them exactly the same list of words and comparing the results carefully. Ease of preparatory operations such as installing and batch processing would also have to be assessed. But still, I have to note that, contrary to what is claimed in literature for other linguistic software ("In accordance with Moore’s law describing scientific/technological progress over time, we find that more recent [tools] substantially outperform their predecessor generation"), for Latin, two of the oldest lemmatizers -- Whitaker's and Morpheus -- still do the best job (alongside the CLTK). At least to the philologist's eye.
+This was, of course, just a quick and dirty exploration on a summer afternoon. A real [product testing](https://en.wikipedia.org/wiki/Product_testing) comparison of lemmatizers would include feeding all of them exactly the same list of words and comparing the results carefully. Ease of preparatory operations such as installing and batch processing would also have to be assessed. Nevertheless, I have to note that, contrary to what is claimed in literature for other linguistic software ("In accordance with Moore’s law describing scientific/technological progress over time, we find that more recent [tools] substantially outperform their predecessor generation"), for Latin, two of the oldest lemmatizers -- Whitaker's and Morpheus -- still do the best job (alongside the CLTK). At least to the philologist's eye.
