@@ -10,9 +10,9 @@ permalink: /convert-conllu-xml-latin/
 
 # The lemmatized Quintilian
 
-The Latin Stylistics course at the University of Zagreb has a reading list which includes, among other texts, Quintilian's Book 10 of the Institutio oratoria. To prepare a number of exercises and a word list for the text, we wanted to use (and explore) the [lemmatized corpus of Latin texts](https://github.com/gcelano/LatinUD) prepared by Giuseppe Celano and published on Github.
+The Latin Stylistics course at the University of Zagreb has a reading list which includes, among other texts, Quintilian's Book 10 of the Institutio oratoria. To prepare a number of exercises and a word list for the text, we wanted to use (and explore) the [lemmatized corpus of Latin texts](https://github.com/gcelano/LatinUD) prepared by [Giuseppe Celano](https://sites.google.com/site/giuseppegacelano/home) and published on Github.
 
-The lemmatized texts, however, are not quite straightforward to use and process, because they are published in the [CONLL-U format](http://universaldependencies.org/docs/format.html), not XML but a specialised linguistic format (with metadata solutions) from which even CSV has to be derived first. There are no ready-made tools for converting from CONLL-U to more general formats such as CSV or XML. The CONLL-U format itself is well documented, though.
+The lemmatized Latin texts, however, are not quite straightforward to use and process, because they are published in the [CONLL-U format](http://universaldependencies.org/docs/format.html), not XML but a specialised linguistic format (with metadata solutions) from which even CSV has to be derived first. There are no ready-made tools for converting from CONLL-U to more general formats such as CSV or XML. The CONLL-U format itself is well documented, though.
 
 ## The plan
 
@@ -22,7 +22,9 @@ As usual, the process involved manual and automatic actions.
 
 ## The process
 
-First, we located the first and the last sentence of Quintilian's Book 10, and discarded everything else. The resulting file (`phi1002.phi001.perseus-lat2:10.txt`) was split using the [csplit command](https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html) from GNU Coreutils. The file was split on empty lines:
+First, we located the CTS URN of Quintilian's *Institutiones* using the [Perseus Catalog](http://catalog.perseus.org/catalog/urn:cts:latinLit:phi1002.phi001.perseus-lat1).
+
+Inside the file, whose name is the same as the CTS URN, we found the first and the last sentence of Quintilian's Book 10, and discarded everything else. The resulting file (`phi1002.phi001.perseus-lat2:10.txt`) was split using the [csplit command](https://www.gnu.org/software/coreutils/manual/html_node/csplit-invocation.html) from GNU Coreutils. The file was split on empty lines:
 
 ```bash
 
@@ -30,7 +32,7 @@ csplit --prefix=phi1002.phi001.perseus-lat2:10. --digits=4 phi1002.phi001.perseu
 
 ```
 
-Now, we had a directory of 754 text files, each holding an individual sentence from the Book 10 (nice information for my students, who have to read 754 sentences of Quintilian). BaseX will read the files one by one, convert them to XML, and import into an XML database. The program will be in XQuery.
+Now we had a directory of 754 text files, each holding an individual sentence from the Book 10 (nice information for my students, who have to read 754 sentences of Quintilian). BaseX will read the files one by one, convert them to XML, and import into an XML database. The program will be in XQuery.
 
 Before writing the program, we had to remove the comments (in lines starting with `#`). This bash one-liner did that, calling `sed`:
 
@@ -69,7 +71,7 @@ return local:conllu($dir || $f)
 
 Note that, for elegance and readability, we have moved the conversion from CSV to XML to a local function `local:conllu($f)`.
 
-Then we create "by hand" a `quint10` database and add to it each XML node produced by the script:
+Then we created "by hand" a `quint10` database and add to it each XML node produced by the script:
 
 ```xquery
 
