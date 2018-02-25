@@ -10,15 +10,15 @@ permalink: /convert-conllu-xml-latin/
 
 # The lemmatized Quintilian
 
-The Latin Stylistics course at the University of Zagreb has a reading list which includes, among other texts, Quintilian's Book 10 of the Institutio oratoria. To prepare a number of exercises and a word list for the text, we wanted to use (and explore) the [lemmatized corpus of Latin texts](https://github.com/gcelano/LatinUD) prepared by [Giuseppe Celano](https://sites.google.com/site/giuseppegacelano/home) and published on Github.
+The [Latin Stylistics](https://theta.ffzg.hr/ECTS/Predmet/Index/1786) course at the University of Zagreb has a reading list which includes, among other texts, Book 10 of Quintilian's *Institutio oratoria*. To prepare a number of exercises and a word list for the text, we decided to use (and explore) the [lemmatized corpus of Latin texts](https://github.com/gcelano/LatinUD) prepared by [Giuseppe Celano](https://sites.google.com/site/giuseppegacelano/home) and published on Github.
 
 The lemmatized Latin texts, however, are not quite straightforward to use and process, because they are published in the [CONLL-U format](http://universaldependencies.org/docs/format.html), not XML but a specialised linguistic format (with metadata solutions) from which even CSV has to be derived first. There are no ready-made tools for converting from CONLL-U to more general formats such as CSV or XML. The CONLL-U format itself is well documented, though.
 
 ## The plan
 
-Our initial plan was: extract Book 10 from the `phi1002.phi001.perseus-lat2.xml` file of the LatinUD repository; split the book into smaller files, a separate one for each sentence; remove the commented fields (starting with `#`), and convert the rest, which is in CSV format using tabs as field separators, into XML using the Basex's CSV module.
+Our initial plan was: extract Book 10 from the `phi1002.phi001.perseus-lat2.xml` file of the LatinUD repository; split the book into smaller files, a separate one for each sentence; remove the commented fields (starting with `#`), and convert the rest, which is in CSV format using tabs as field separators, into XML using the CSV module of [BaseX](http://basex.org/).
 
-As usual, the process involved manual and automatic actions.
+As usual, the process combined manual and automatic actions.
 
 ## The process
 
@@ -32,7 +32,7 @@ csplit --prefix=phi1002.phi001.perseus-lat2:10. --digits=4 phi1002.phi001.perseu
 
 ```
 
-Now we had a directory of 754 text files, each holding an individual sentence from the Book 10 (nice information for my students, who have to read 754 sentences of Quintilian). BaseX will read the files one by one, convert them to XML, and import into an XML database. The program will be in XQuery.
+Now we had a directory of 754 text files, each holding an individual sentence from the Book 10 (nice information for my students, who now know they have to read 754 sentences of Quintilian for their summer exam term). BaseX will read the files one by one, convert them to XML, and import into an XML database. The program will be in XQuery.
 
 Before writing the program, we had to remove the comments (in lines starting with `#`). This bash one-liner did that, calling `sed`:
 
