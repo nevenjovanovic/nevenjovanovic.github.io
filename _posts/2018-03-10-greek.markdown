@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A regex to find Greek characters in XML"
-subtitle:   "A working note"
+subtitle:   "A brief memo"
 date:       2018-03-10
 author:     "Neven Jovanović"
 header-img: "img/greek-letters.jpg"
@@ -9,6 +9,6 @@ header-img: "img/greek-letters.jpg"
 
 This is a regular expression covering (almost) all Unicode blocks with Greek characters: `[\p{InGreek},\p{InGreekExtended},\p{InAncientGreekNumbers}]+`.
 
-All Unicode blocks are listed [https://www.w3.org/TR/xsd-unicode-blocknames/](here).
+All Unicode blocks are listed [here](https://www.w3.org/TR/xsd-unicode-blocknames/).
 
 
