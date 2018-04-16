@@ -13,7 +13,7 @@ NEČASNIM HDZ-EOVSKIM ČINOM INSTAMBULSKE KONVENCIJE IZNEVJERIŠE BOGA I SVOJ HR
 
 Pošto su prebrojeni ljutiti plakati na splitskoj Rivi, i njihovi nositelji, proljetnom je Hrvatskom prostrujao uzdah olakšanja, mirišući blago na procvale voćke i prvu pokošenu travu. Ovaj put im nije uspjelo; ljutitih upozorenja na izdaju BOGA I SVOJEG HRVATSKOG NARODA bilo je par tisuća, a ne par desetaka ili par stotina tisuća; također, najdeblji su stupovi društva uočljivo izostali s Rive, i još naglasili da baš navlaš nisu u Splitu. 
 
-# Pravopisna antiteza
+
 
 Ali ostaje činjenica da je par tisuća ljudi na splitskoj Rivi protestiralo protiv INSTAMBULSKE KONVENCIJE. Riječi na plakatu pritom, molit ću, nisu bile ispisane rukom, niti iscrtane rapidografom tehničkog crtača. Iskorak u pravopisnu džunglu izveden je računalnim printerom. A da nije bio slučajan -- ili da se reproducira poput zarazne bolesti -- utvrdit ćete nalazeći ga i na nekoliko mjesta diljem (hrvatskoga) interneta: [1](https://portal.braniteljski-forum.com/vijesti/hcsp-poziva-na-prosvjedni-skup-protiv-ratifikacije-instambulske-konvencije), [2](https://hrvatskabraniteljskapuckastranka.weebly.com/blog/zeljko-sacic-hrvatski-narode-budimo-spremni-na-aktivan-otpor), [3](
 http://croatia-presse.de/deseci-tisuca-ljudi-protiv-istanbulske-konvencije/).
