@@ -24,7 +24,7 @@ To čini splitsku pobunu protiv bezbožnika, nerodoljuba i pravopisa školski ja
 
 "Svaka čast, tako se radi", prokomentirao je zluradi glasić drugdje na internetu [novinsku vijest o Gordoganovoj molbi za pomoć](https://net.hr/danas/hrvatska/casopis-gordogan-moli-za-donacije-ministarstvo-im-je-nakon-40-godina-izlazenja-bez-objasnjenja-obustavilo-sufinanciranje/), "Skupite donacija, pa ko voli --- nek izvoli. Ne znam zašto bih ja plaćao časopis koji ne da nisam čitao nego za koji nisam niti čuo." Liberalni je ironičar, naizgled, u stopostotnom pravu.  Ponuda i potražnja, nevidljiva ruka tržišta, i u Hrvatskoj neka budu idealan regulator kulturnih potreba za Gordoganom. Ako hrvatskim potrošačima Gordogan treba, oni će ga i plaćati, izravno iz svog hrvatskog džepa, onako kao što plaćaju kruh, kavu, iPhone, školovanje svoje djece, Big Brother i turske sapunice.
 
-(Ali, čekaj malo; koliko znam, hrvatski potrošači ne plaćaju izravno iz svog džepa školovanje, Big Brother i sapunice. Plaćaju ih neizravno, da, i to debelo, i u priličnom neskladu "vrijednosti za novac"; ali izravno ne.)
+(Ali, čekaj malo; koliko znam, hrvatski potrošači ne plaćaju izravno iz svog džepa školovanje, Big Brother i sapunice. Plaćaju ih neizravno, da, i to debelo, i u priličnom nesrazmjeru "vrijednosti za novac"; ali izravno ne.)
 
 # Depresivna demografija
 
