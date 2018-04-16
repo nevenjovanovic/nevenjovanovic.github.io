@@ -32,6 +32,8 @@ Depresivna demografska činjenica: da biste imali magazine u kojima će feljtone
 
 U takvim kulturama Gordogani stoje sami, neovisno o državi; stoje na čvrstim temeljima kvalitete i konkurencije, ponude i potražnje, a i određene tradicije, pa nam se lako oko njih veselo igrati "strogih administrativnih propisa" i "ko voli -- nek izvoli".
 
+# Kulturica i gordoganci
+
 Mi u takvoj kulturi, bolno očito, ne živimo. Po svim znacima na zidu (i plakatima) sudeći, mi živimo u kulturi u kojoj je Gordogan "čitalo ili barem za nj čulo" otprilike isto onoliko ljudi koliko se na splitskoj Rivi bunilo protiv INSTAMBULSKE i pravopisa.
 
 U toj je kulturi -- kulturici, da pravo kažemo -- gesta uskrate potpore Gordoganu više od simbola i packe po prstima za one koji su onima na vlasti nesimpatični. Uskrata novca poreznih obveznika časopisu čiju časopisnu kvalitetu (dodatno cinično) nitko ne poriče, čak ni uskratitelji sami -- ta je uskrata odlučna gesta podrške INSTAMBULSKOJ, u svom svojemu sjaju. Ne podrške spornom dokumentu, niti onima koji su izašli na Rivu vikati protiv onoga što misle da dokument jest. Nego podrške svijetu u kojem je moguće, prihvatljivo, zamislivo računalnim printerom ispisati plakat na kojem će se, u punoj divoti svježe kakice usred razmotanih pelena, kočiti PRAVOPISNA POGREŠKA, kao krunski dokaz neznanja u pohodu na prijestolje Jedinog Dozvoljenog Svjetonazora, gordoganstva *par excellence*. Ovaj put im nije uspjelo. Sljedeći put pohod neće ni biti potreban: već ćemo svi biti gordoganci.
