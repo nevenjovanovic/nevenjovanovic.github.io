@@ -23,7 +23,7 @@ On the other hand, Hathi Trust was very useful. It was possible to [filter the r
 
 ![Peseisthai in Hemsterhuis's edition](/img/hemsterhuis-550-peseithai.png "Hemsterhuis, 3:550")
 
-Thanks to Hathi Trust, I've learned that the editions of [Iacobitz (1841)](https://hdl.handle.net/2027/njp.32101055580359), [Weise (1847)](http://catalog.hathitrust.org/Record/011544732), [Bekker (1853)](http://catalog.hathitrust.org/Record/008911491), and [Dindorf (1858)](http://catalog.hathitrust.org/Record/008901853) all read πεσεῖσθαι, not πείσεσθαι. Iacobitz's is the only of these with an apparatus criticus, and there it can be seen that [πεσεῖσθαι is actually not in any of the manuscript families](https://hdl.handle.net/2027/njp.32101055580359?urlappend=%3Bseq=605).
+Thanks to Hathi Trust, I've learned that the editions of [Reitz and Hemsterhuis (1743)](https://hdl.handle.net/2027/njp.32101078170576?urlappend=%3Bseq=560), [Iacobitz (1841)](https://hdl.handle.net/2027/njp.32101055580359), [Weise (1847)](http://catalog.hathitrust.org/Record/011544732), [Bekker (1853)](http://catalog.hathitrust.org/Record/008911491), and [Dindorf (1858)](http://catalog.hathitrust.org/Record/008901853) all read πεσεῖσθαι, not πείσεσθαι. Iacobitz's is the only of these with an apparatus criticus, and there it can be seen that [πεσεῖσθαι is actually not in any of the manuscript families](https://hdl.handle.net/2027/njp.32101055580359?urlappend=%3Bseq=605).
 
 ![Peseisthai in Jakobitz's edition](/img/jakobitz-peseisthai.png "Jakobitz, peseisthai")
 
