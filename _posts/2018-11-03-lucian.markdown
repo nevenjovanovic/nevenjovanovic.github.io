@@ -25,15 +25,15 @@ On the other hand, Hathi Trust was very useful. It was possible to [filter the r
 
 Thanks to Hathi Trust, I've learned that the editions of [Iacobitz (1841)](https://hdl.handle.net/2027/njp.32101055580359), [Weise (1847)](http://catalog.hathitrust.org/Record/011544732), [Bekker (1853)](http://catalog.hathitrust.org/Record/008911491), and [Dindorf (1858)](http://catalog.hathitrust.org/Record/008901853) all read πεσεῖσθαι, not πείσεσθαι. Iacobitz's is the only of these with an apparatus criticus, and there it can be seen that [πεσεῖσθαι is actually not in any of the manuscript families](https://hdl.handle.net/2027/njp.32101055580359?urlappend=%3Bseq=605).
 
-![Peseisthai in Jakobitz's edition](https://github.com/nevenjovanovic/nevenjovanovic.github.io/raw/master/img/jakobitz-peseisthai.png "Jakobitz, peseisthai")
+![Peseisthai in Jakobitz's edition](/img/jakobitz-peseisthai.png "Jakobitz, peseisthai")
 
 This must be the reason why [M. D. Macleod](http://worldcat.org/identities/lccn-n85045517/), in his [1967 Loeb](https://archive.org/stream/Lucian06HowToWriteHistoryHerodotus/Lucian%2008%20Ass%2C%20Demosthenes%2C%20Cynic%2C%20Charidemos%2C%20Nero#page/n413/mode/2up) and also in [volume 4 of his Oxford Classical Texts edition from 1987](https://hdl.handle.net/2027/uva.x001217650), has chosen to print πείσεσθαι. But, in the brief 1967 apparatus, Macleod writes: "πείσεσθαι Γ: πείσεσθε recc.: πεσεῖσθε recc., edd." He remains quiet on the rich and influential tradition – present not only in 19th century editions, but in Latin translations as well – of reading πεσεῖσθαι. The latter reading has, to be honest, certain stylistic value, as part of a figura etymologica, and I find it more effective.
 
-![Peisesthai in Loeb](https://github.com/nevenjovanovic/nevenjovanovic.github.io/raw/master/img/loeb-peithesthai.png "Macleod, Loeb, peisesthai")
+![Peisesthai in Loeb](/img/loeb-peithesthai.png "Macleod, Loeb, peisesthai")
 
 I cannot know what reasons Macleod gave for printing πείσεσθαι in his 1987 OCT apparatus. This edition remains outside the internet, and, besides, the editors remain traditionally laconic to the extreme in the apparatus. A philologist worth his salt will understand the editor's reasons without additional explanation, suggests the unspoken ethos of the profession.
 
-![Thomas Morus's Latin translation of Cynicus](https://github.com/nevenjovanovic/nevenjovanovic.github.io/raw/master/img/lucian-cynicus-latine.png "Thomas Morus, Latin translation of Lucian's Cynicus")
+![Thomas Morus's Latin translation of Cynicus](/img/lucian-cynicus-latine.png "Thomas Morus, Latin translation of Lucian's Cynicus")
 
 Nesselrath's review of Macleod's fourth volume of Lucian, [Gnomon 62:6 (1990), 498-511](https://www.jstor.org/stable/27690528), concluded, in general, that Macleod's edition is valuable because it is "the first complete edition which is critical in the modern sense", but that the editor has "taken too little account of the 19th century editions", although "the older philologists could have solved, or helped to solve, many difficult readings" (Nesselrath gives four tightly typeset pages of such readings, though our passage from the Cynicus is not among them).
 
