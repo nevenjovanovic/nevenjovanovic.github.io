@@ -21,7 +21,7 @@ On the web, we tend to start from a general search: Google or the like, or a lar
 
 On the other hand, Hathi Trust was very useful. It was possible to [filter the results of a search there to include just Lucian](https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%E1%BC%B4%CF%83%CF%84%CE%B5%20%CE%B4%27%20%CE%BF%E1%BD%90%CE%B4%CE%B1%CE%BC%E1%BF%B6%CF%82%20%CF%80%CF%81%E1%BD%B6%CE%BD%20%CF%80%CE%B5%CF%83%CE%B5%E1%BF%96%CE%BD;a=srchls;lmt=all&facet=authorStr:%22Lucian%2C%20of%20Samosata.%22) (I am not sure whether it will be possible to share the search string, though).
 
-![Peseisthai in Hemsterhuis's edition](https://github.com/nevenjovanovic/nevenjovanovic.github.io/raw/master/img/hemsterhuis-550-peseithai.png "Hemsterhuis, 3:550")
+![Peseisthai in Hemsterhuis's edition](/img/hemsterhuis-550-peseithai.png "Hemsterhuis, 3:550")
 
 Thanks to Hathi Trust, I've learned that the editions of [Iacobitz (1841)](https://hdl.handle.net/2027/njp.32101055580359), [Weise (1847)](http://catalog.hathitrust.org/Record/011544732), [Bekker (1853)](http://catalog.hathitrust.org/Record/008911491), and [Dindorf (1858)](http://catalog.hathitrust.org/Record/008901853) all read πεσεῖσθαι, not πείσεσθαι. Iacobitz's is the only of these with an apparatus criticus, and there it can be seen that [πεσεῖσθαι is actually not in any of the manuscript families](https://hdl.handle.net/2027/njp.32101055580359?urlappend=%3Bseq=605).
 
