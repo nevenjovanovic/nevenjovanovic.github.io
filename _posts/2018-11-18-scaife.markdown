@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "Passages from a Greek reader in the Scaife Viewer of the Perseus Digital Library"
+subtitle:   "A look at the state of open philological assets for Ancient Greek"
+date:       2018-11-18 12:00:00
+author:     "Neven Jovanović"
+header-img: "img/scaife.png"
+---
+
+# Perseus Catalog and Scaife Viewer
+
+Next step in enhancing our [Ancient Greek reader](https://bitbucket.org/nevenjovanovic/hellenismos/src) is to connect it with existing open digital resources for Ancient Greek. First, we turned to the [Perseus Digital Library](http://perseus.tufts.edu/), its wonderful [Catalog](http://catalog.perseus.org/), and its brand new and stylish [Scaife Digital Library Viewer](https://scaife.perseus.org/).
+
+# State of the Viewer
+
+In our reader there are 60 brief extracts from Ancient Greek prose, comprising authors from Herodotus to Plotinus. All passages have CTS URNs in the Perseus Catalog; 17 passages are absent from the Scaife Viewer, and an additional passage returns an *error* in the viewer (the issue has been [reported on Github](https://github.com/scaife-viewer/scaife-viewer/issues/308)).
+
+Currently about **two thirds** of our selections are accessible in the Scaife Viewer. This is indicative of the current coverage of Ancient Greek literature there.
+
+Not bad at all, but, of course, we hope that the extent will grow. Everybody can help!
+
+A more detailed [list of our passages](https://bitbucket.org/nevenjovanovic/hellenismos-hypostates/wiki/ReportScaifeReader.md), with CTS URNs both for the Perseus Catalog and for the Scaife Viewer, is available in the wiki of the [Bitbucket repository](https://bitbucket.org/nevenjovanovic/hellenismos-hypostates/).
+
