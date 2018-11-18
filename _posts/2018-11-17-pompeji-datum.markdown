@@ -17,7 +17,7 @@ Massimo Osanna, direktor Arheološkog parka Pompeji, objavio je [na Instagramu](
 
 Sa smještanjem erupcije u listopad poklapaju se i arheološki nalazi ostataka svježih šipaka i oraha, kao i vina (berba ne bi bila prije rujna), a indikativna je i toplija odjeća koju su nosile neke od žrtava.
 
-![Talijanski ministar kulture Bonisoli i direktor Arheološkog parka Osanna pred grafitom](img/ministaridirektor.jpg)
+![Talijanski ministar kulture Bonisoli i direktor Arheološkog parka Osanna pred grafitom](/img/ministaridirektor.jpg "Bonisoli i Osanna pred grafitom")
 
 # Plinije, Tacit i Vezuv
 
@@ -27,7 +27,7 @@ Inače, sam datum Plinijeva pisma Tacitu nije poznat; na početku zbirke, Plinij
 
 # Kritika teksta
 
-![Detalj stranice s kritičkim aparatom iz Mommsenova izdanja 1870](img/pliny-apparatus-detail.png)
+![Detalj stranice s kritičkim aparatom iz Mommsenova izdanja 1870](/img/pliny-apparatus-detail.png "Detalj iz Mommsen-Keilova aparata uz Plinijeva pisma")
 
 Provjerimo li, međutim, [kritički aparat uz Plinijevo pismo VI, 16](https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10996178_00210.html?zoom=1.55) – takav aparat donosi sažete obavijesti priređivača o razlikama u rukopisima koji su stigli do nas (najstariji su predstavnici pojedinih grana predaje iz VI, IX. i XV. stoljeća; na slici je aparat iz [Mommsenova i Keilova izdanja, Leipzig 1870](http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10996178-2)) – zamijetit ćemo da postoji nesigurnost u navođenju sudbonosnog datuma; umjesto "Nonum Kal. Septembres hora fere septima", jedna skupina rukopisa ima "nonum Kal. hora fere septima", druga "November Calend' hora fere septima", treća "Kl. Nouembris hora fere septima"; dvije varijante podržavaju općeprihvaćeno čitanje. Novopronađeni grafit sugerira da bi, tradiciji usprkos, i čitanja vezana s prvim studenim (Kalendae Novembres) bila moguća.
 
