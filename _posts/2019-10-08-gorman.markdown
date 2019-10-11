@@ -1,0 +1,75 @@
+---
+layout:     post
+title:      "Using BaseX to analyze Greek treebanks"
+subtitle:   "Vanessa Gorman's Ancient Greek treebank collection has over 500,000 words analysed for their morphological and syntactic features; the collection is openly available on Github. What to do with it?"
+date:       2019-10-07 12:00:00
+author:     "Neven Jovanović"
+header-img: "img/scaife.png"
+---
+
+# Vanessa Gorman's collection of Ancient Greek treebanks
+
+This September, [Vanessa Gorman](https://history.unl.edu/vanessa-b-gorman), a Classicist and historian from the University of Nebraska - Lincoln, announced on a specialist mailing list that her collection of treebanked sentences of Ancient Greek prose has surpassed the 500,000 words mark. Gorman has made her collection, which ranges from Herodotus (c. 484 – c. 425 BC) to Athenaeus (c. 200) and Cassius Dio (c. 163 – after 229), freely available through [Github](https://github.com/vgorman1/Greek-Dependency-Trees/tree/master/xml%20versions) and [Perseids Publications](https://perseids-publications.github.io/gorman-trees/). The collection is in active development – new texts and sentences are being added, old ones corrected.
+
+What does that mean, why is that important, what can we, as philologists and Classicists, do with the collection, and how do we do it?
+
+# What is a treebank?
+
+Treebanks, or dependency tree diagrams, are syntactical annotations which present sentence as a structure where everything is dependent on the root (or core), and the root is usually the predicate. Each sentence function, or relation, is seen as opening slots for further relations – the predicate opens place for subject, object, adverbials and several other functions, the subject opens slot for an attribute and several other functions, and so on.
+
+Computationally, the sentence annotated in such a way may be considered a [graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)). The annotation of relations between vertices, or nodes, of the graph – functional elements in a sentence, such as predicate, subject, etc – enables us to think about *complexity* of a sentence, to *classify* sentences according to their complexity, and, in general, to think about what makes a Greek sentence *different* (or, if you are a beginner, hard to understand). Which is all very interesting to me, who has to teach Greek for a living.
+
+# BaseX turns the collection into a database
+
+Vanessa Gorman's collection was annotated "by hand". No machine learning method was used; the colleague simply, and courageously, went through all 500K words, marking each for its syntactical function, its "head" (the vertex it is dependent on), its morphological features, and its lemma.  Here is a short sample of her work:
+
+```xml
+
+<sentence id="29" document_id="urn:cts:greekLit:tlg0551.tlg017.perseus-grc2" subdoc="1.11.97">
+    <word id="1" form="πείθεὸ" lemma="πείθω" postag="v2spme---" relation="PRED" head="0"/>
+    <word id="2" form="μοι" lemma="ἐγώ" postag="p1s---md-" relation="OBJ" head="1"/>
+    <word id="3" form="," lemma="punc1" postag="u--------" relation="AuxX" head="0"/>
+    <word id="4" form="Ῥωμαῖε" lemma="Ῥωμαικός" postag="a-s---mv-" relation="ExD" head="1"/>
+    <word id="5" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+</sentence>
+
+```
+
+The annotated sentences are coded and formatted as [XML](https://en.wikipedia.org/wiki/XML), which makes it possible (and logical) to import the set of treebanks into an [XML database](https://de.wikipedia.org/wiki/XML-Datenbank) for further manipulation. In my case, the database is [BaseX](http://basex.org/), where manipulation is done by writing and executing XQuery scripts.
+
+XQuery, a programming language dedicated to manipulating XML, incidentally makes it possible to script *everything*, from pulling files from a Github collection to running individual queries.
+
+As an illustration, here is a simple XQuery which searches all sentences with syntactic annotations from the collection `grc-tb-g` (an XML database of Vanessa Gorman's sentences), and retrieves all words with syntactic role of `AuxG` (code for [bracketing punctuation](https://github.com/alpheios-project/arethusa-configs/blob/master/configs/arethusa.relation/relations2.json) in Perseus / Arethusa configuration); there are 783 results in current version of the collection:
+
+```xquery
+
+let $db := "grc-tb-g"
+for $s in collection($db)//*:sentence[not(*:word/@relation=("UNDEFINED", "nil") or *:word/@head="")]/*:word[@relation="AuxG"]
+return $s
+
+```
+
+At the moment I am trying to prepare, in a relatively structured way, a beginner's set of queries for Vanessa Gorman's treebank collection.
+
+# Towards replicating research on treebanks
+
+If you download and install BaseX, then clone this [repository of Gorman's treebank queries](), and use BaseX to execute queries I have prepared – usually graphical user interface (GUI) will be enough – you will be able to:
+
+1. [replicate a database]() of Vanessa Gorman's treebank collection
+2. [retrieve some statistics]() on annotations in the collection
+3. retrieve sentences of a specific type, or configuration, e. g.
+    * sentences [with n elements]()
+    * sentences [with n nodes in path]()
+    * sentences [with n elements and specific syntactic relation]()
+    * a list of [all parts of speech in a specific syntactic relation]()
+    * a set of [treebank fragments – a specific syntactic relation and all its descendants]() 
+
+# What can the database tell us
+
+**How do we measure complexity of a syntactic tree?** To a teacher of Greek, this is an interesting problem because learners would find simpler syntax easier to grasp.
+
+**Which parts of speech and which word-forms can take on a certain syntactic role?**  From such questions one could write a descriptive syntax of a corpus, and even a lexicon. We would be finding the unexpected, I guess. Moreover, we can add data on frequency of individual configurations: what is rare (and should be commented on e. g. in a textbook), what do we encounter often (and should require students to learn)? Such a model could then be compared to a standard scholarly description of Greek syntax.
+
+**Do sentences with similar tree configurations feel similar when we read them?** At the moment, this is not even a hypothesis, just an idea. But the idea can be implemented as an XQuery.
+
+
