@@ -19,7 +19,7 @@ A simple two-part digital publication demonstrates our knowledge of Greek gramma
 
 An example of a selection with our commentary is here: [Marci Aurelii ad se ipsum 3.1, cum analysi grammatica et lemmatibus](http://croala.ffzg.unizg.hr/grcgram/marcusaurelius3-1.html). Each word (and punctuation mark) has three types of notes – a reference to its lemma, a morphological description (in ALDT codes and in Greek), and a CTS URN which is a live link.
 
-![A commented selection from Marcus Aurelius](img/marcusaurelius-annotated.png "A selection from Marcus Aurelius")
+![A commented selection from Marcus Aurelius]({{ site.url }}/img/marcusaurelius-annotated.png "A selection from Marcus Aurelius")
 
 From the other side, there is a proto-dictionary for our texts, [a list of all its lemata](http://croala.ffzg.unizg.hr/basex/grcmorf-lemmata). The frequency count in that list is also a live link, which leads to an index entry listing all forms which appear in the reader, their frequency, their morphology codes, and locations at which they occur; check out the example for the word [στρατηγός](http://croala.ffzg.unizg.hr/basex/grcmorf-occur/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CF%8C%CF%82) (links to locations eventually lead to the same page as the CTS URNs from selections with three sets of annotations, described above).
 
