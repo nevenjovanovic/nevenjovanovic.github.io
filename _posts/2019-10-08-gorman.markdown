@@ -4,7 +4,7 @@ title:      "Using BaseX to analyze Greek treebanks"
 subtitle:   "Vanessa Gorman's Ancient Greek treebank collection has over 500,000 words analysed for their morphological and syntactic features; the collection is openly available on Github. What to do with it?"
 date:       2019-10-07 12:00:00
 author:     "Neven Jovanović"
-header-img: "img/scaife.png"
+header-img: "img/romans-papyrus-10.jpg"
 ---
 
 # Vanessa Gorman's collection of Ancient Greek treebanks
@@ -53,7 +53,7 @@ At the moment I am trying to prepare, in a relatively structured way, a beginner
 
 # Towards replicating research on treebanks
 
-If you download and install BaseX, then clone this [repository of Gorman's treebank queries](), and use BaseX to execute queries I have prepared – usually graphical user interface (GUI) will be enough – you will be able to:
+If you download and install [BaseX](http://basex.org/), then clone this [repository of Gorman's treebank queries](), and use BaseX to execute queries I have prepared – usually graphical user interface (GUI) will be enough – you will be able to:
 
 1. [replicate a database]() of Vanessa Gorman's treebank collection
 2. [retrieve some statistics]() on annotations in the collection
@@ -61,8 +61,8 @@ If you download and install BaseX, then clone this [repository of Gorman's treeb
     * sentences [with n elements]()
     * sentences [with n nodes in path]()
     * sentences [with n elements and specific syntactic relation]()
-    * a list of [all parts of speech in a specific syntactic relation]()
-    * a set of [treebank fragments – a specific syntactic relation and all its descendants]() 
+4. retrieve a list of [all parts of speech in a specific syntactic relation]()
+5. retrieve a set of [treebank fragments – a specific syntactic relation and all its descendants]() 
 
 # What can the database tell us
 
