@@ -9,7 +9,7 @@ header-img: "img/grc-pap-drawing.jpg"
 
 # Annotating morphology and lemmata in Greek texts
 
-Experience has shown that the greatest shock for university students of Ancient Greek in Croatia, even when they had been taught Greek in high school, is encountering sentences and texts that the Greeks have actually written. We have tried to treat this shock by preparing a [Greek reader](https://github.com/nevenjovanovic/grcka-morfologija), 60 brief selections of Ancient Greek prose from Herodotus to Plotinus, carefully commented and cued to a standard (though outdated) school grammar; the idea is to read four selections each week during the semester. We are now in the second round of trying out the reader, and so far the approach seems to work. You can see another edition of the texts supported by the Alpheios tools at our [Eklogai site](http://croala.ffzg.unizg.hr/eklogai/).
+Experience has shown that the greatest shock for university students of Ancient Greek in Croatia, even when they had been taught Greek in high school, is encountering sentences and texts that the Greeks have actually written. We have tried to treat this shock by preparing a [Greek reader](https://github.com/nevenjovanovic/grcka-morfologija), 60 brief selections of Ancient Greek prose from Herodotus to Plotinus, carefully commented and cued to a standard (though outdated) school grammar; the idea is to read four selections each week during our 15-weeks semester. We are now in the second round of trying out the reader, and so far the approach seems to work. You can see another edition of the texts supported by the [Alpheios tools](http://alpheios.net/) at our [Eklogai site](http://croala.ffzg.unizg.hr/eklogai/).
 
 A team of the older students helped prepare a digital, clearly structured grammatical and lexical commentary to selections in the reader. They have added the [ALDT grammatical codes](https://github.com/alpheios-project/arethusa/wiki/Creating-a-Morphological-Attribute-Configuration-File) and lemmata to the XML of tokenized texts. After reviewing, the texts have been enriched by bibliographic data and aligned to their CTS URNs wherever possible (the fact that the [Perseus Digital Library implemented CTS URNs](http://sites.tufts.edu/perseusupdates/beta-features/perseus-cts-api/) helped greatly).
 
@@ -17,11 +17,13 @@ A team of the older students helped prepare a digital, clearly structured gramma
 
 A simple two-part digital publication demonstrates our knowledge of Greek grammar and lexicon, digitally encoded.
 
-An example of a selection with our commentary is here: [Marci Aurelii ad se ipsum 3.1, cum analysi grammatica et lemmatibus](http://croala.ffzg.unizg.hr/grcgram/marcusaurelius3-1.html). Each word (and punctuation mark) has three types of notes – a reference to its lemma, a morphological description (in ALDT codes and in Greek), and a CTS URN which is a live link.
+An example of a selection with our commentary is here: [Marci Aurelii ad se ipsum 3.1, cum analysi grammatica et lemmatibus](http://croala.ffzg.unizg.hr/grcgram/marcusaurelius3-1.html). Each word (and punctuation mark) has three types of notes – a reference to its lemma, a morphological description (in ALDT codes and, here, in Greek), and a CTS URN which is a live link.
 
 ![A commented selection from Marcus Aurelius]({{ site.url }}/img/marcusaurelius-annotated.png "A selection from Marcus Aurelius")
 
 From the other side, there is a proto-dictionary for our texts, [a list of all its lemata](http://croala.ffzg.unizg.hr/basex/grcmorf-lemmata). The frequency count in that list is also a live link, which leads to an index entry listing all forms which appear in the reader, their frequency, their morphology codes, and locations at which they occur; check out the example for the word [στρατηγός](http://croala.ffzg.unizg.hr/basex/grcmorf-occur/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CF%8C%CF%82) (links to locations eventually lead to the same page as the CTS URNs from selections with three sets of annotations, described above).
+
+![A page for στρατηγός in the word index of the Greek Reader.]({{ site.url }}/img/grcmorf-lemmata.png "A page for στρατηγός in the word index of the Greek Reader.")
 
 # Technology used and credits
 
