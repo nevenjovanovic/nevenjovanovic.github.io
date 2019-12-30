@@ -17,9 +17,11 @@ A team of the older students helped prepare a digital, clearly structured gramma
 
 A simple two-part digital publication demonstrates our knowledge of Greek grammar and lexicon, as digitally encoded in the collection.
 
-A text from the reader with our commentary as (multiple) HTML tooltips is here: [Marci Aurelii ad se ipsum 3.1, cum analysi grammatica et lemmatibus](http://croala.ffzg.unizg.hr/grcgram/marcusaurelius3-1.html). Each word (and punctuation mark) has three types of notes – a reference to its lemma, a morphological description (in ALDT codes and, in the selection from Marcus Aurelius, in Greek grammatical terms), and a CTS URN which is a live link.
+A text from the reader with our commentary as (multiple) HTML tooltips is here: [Marci Aurelii ad se ipsum 3.1, cum analysi grammatica et lemmatibus](http://croala.ffzg.unizg.hr/grcgram/tlg0562.tlg001.ffzghr-pos:3.1.html). Each word (and punctuation mark) has three types of notes – a reference to its lemma, a morphological description (in ALDT codes and, in the selection from Marcus Aurelius, in Greek grammatical terms), and a CTS URN which is a live link.
 
 ![A commented selection from Marcus Aurelius]({{ site.url }}/img/marcusaurelius-annotated.png "A selection from Marcus Aurelius")
+
+A list of 58 annotated selections from the reader (ordered alphabetically) is here: [croala.ffzg.unizg.hr/grcgram](http://croala.ffzg.unizg.hr/grcgram/).
 
 The other part of the publication is a proto-dictionary for our texts, [a list of all its lemata](http://croala.ffzg.unizg.hr/basex/grcmorf-lemmata). The frequency count in that list is a live link as well. It leads to an index entry listing all forms which appear in the reader, their frequency, their morphology codes, and locations at which they occur. Check out the example for the word [στρατηγός](http://croala.ffzg.unizg.hr/basex/grcmorf-occur/%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CF%8C%CF%82) (links to locations eventually lead to the same page as the CTS URNs from selections with three sets of annotations, described above).
 
