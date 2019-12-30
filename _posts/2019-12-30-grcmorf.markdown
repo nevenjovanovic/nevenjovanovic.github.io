@@ -31,9 +31,9 @@ The selections, prepared from CC-licensed texts published by the [Open Greek and
 
 The CTS and CITE architecture is developed and described by Neel Smith and Christopher Blackwell at [cite-architecture.org](http://cite-architecture.org/) and its depositories. 
 
-Chris Blackwell's wonderful [readingKits single-page CEX publications](http://folio2.furman.edu/readingKit/) provided a model for designing annotated texts. The index of forms has been inspired by [Syntacticus](http://syntacticus.org/), a PROIEL project.
+Chris Blackwell's wonderful [readingKits single-page CEX publications](http://folio2.furman.edu/readingKit/) provided a model for designing annotated texts. The index of forms has been inspired by [Syntacticus](http://syntacticus.org/), a PROIEL project. The Greek grammatical terms are those proposed by William S. Annis on scholiastae.org, [Greek grammar in Greek](http://scholiastae.org/docs/el/greek_grammar_in_greek.pdf).
 
-The scripts for transforming XML, analyzing CTS URNs, and publishing results as HTML were written in XQuery and served by the [BaseX XML database](http://basex.org/). The HTML annotations are being shown by the jQuery plugin [Tooltipster](http://iamceege.github.io/tooltipster/).
+The scripts for transforming XML, analyzing CTS URNs, and publishing results as HTML are written in XQuery and served by the [BaseX XML database](http://basex.org/). The HTML annotations are being shown by the jQuery plugin [Tooltipster](http://iamceege.github.io/tooltipster/).
 
 Last, but under no circumstances the least, the student annotators, μέγα κῦδος ἀράμενοι, were Lovre Katić, Ivona Maleš, Klara Radovniković, Petar Soldo.
 
