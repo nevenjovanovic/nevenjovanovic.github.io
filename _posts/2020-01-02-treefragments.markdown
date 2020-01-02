@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Annotated selections of Ancient Greek prose"
-subtitle:   "A small scale implementation research project at the University of Zagreb, Faculty of Humanities and Social Sciences, publishes morphologically annotated and lemmatized selections of Ancient Greek, using the CITE architecture to refer to parts of texts."
-date:       2019-12-30 12:00:00
+title:      "Reading supported by dependency trees, a prototype"
+subtitle:   "Treebank annotations transformed into a reading page which shows dependencies between words in sentences."
+date:       2020-01-02 12:00:00
 author:     "Neven Jovanović"
-header-img: "img/grc-pap-drawing.jpg"
+header-img: "img/pan.jpg"
 ---
 
 # Using dependency tree fragments: a prototype
