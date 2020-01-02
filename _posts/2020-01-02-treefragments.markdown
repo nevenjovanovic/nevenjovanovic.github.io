@@ -11,7 +11,7 @@ header-img: "img/pan.jpg"
 
 The hypothesis is that we can understand a Greek sentence easier if we can check any word in it and see which word it is dependent on, and which word is governed by it.
 
-Here is a prototype of such fragmentary display of dependency tree annotations in something resembling a reading environment (with tooltips showing lemmata):
+The following selections (check out the links) have been transformed into prototypes of such a fragmentary display. The dependency tree annotations help readers orientate in something resembling a reading environment (with tooltips showing lemmata):
 
 * [Xenophon, Hellenica 1, 1-4](http://croala.ffzg.unizg.hr/grcfrag/xen-hell-1-1-4.html)
 * [Josephus Flavius, Bellum Judaicum 1, 11-15](http://croala.ffzg.unizg.hr/grcfrag/josephus-BJ-1-11-15.html)
