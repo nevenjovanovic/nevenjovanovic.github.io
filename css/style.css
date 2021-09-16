@@ -1,0 +1,50 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+    font-size: 1.1em;
+    font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    background: #fdf6e3;
+    color: #657b83;
+    padding: 20px;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+td:nth-child(even) {
+    padding-right: 50px;
+}
+
+/*
+	STRUCTURE
+*/
+.post { 
+	width: 500px; 
+}
+
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+s { display:block; font-size: 1.2em; margin: 0 0 15px 0; text-decoration:none; }
+.highlight {
+    background-color: #eee8d5;
+}
+
+h1 { font-size: 3.1em;
+     letter-spacing: -1px; color: #d33682; }
+h2 { font-size: 2.1em;
+     letter-spacing: -1px; color: #d33682; }
+a { color: #859900;
+    text-decoration: none;
+  }
+a:hover { color: #ccc; }
