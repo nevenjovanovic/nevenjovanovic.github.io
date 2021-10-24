@@ -25,9 +25,9 @@ TEI Publisher via docker made the first task ridiculously easy. You choose the P
 
 # 2. Color-code the verses to show the enjambement type
 
-The second task was more complicated. It required changing the ODD document, which controls transformations of TEI elements in the XML. Following the instructions, I eventually reached the satisfying solution – not without making a few wrong turns.
+The second task was more complicated. It required changing the [ODD document](https://wiki.tei-c.org/index.php/ODD), which controls transformations of TEI elements in the XML. Following the instructions, I eventually reached the satisfying solution... not without making a few wrong turns.
 
-At first I wrote four models for four different l[@enjamb] element types, including the one which does not have an @enjamb attribute. In the models I changed the CSS rules for color. The procedure was relatively simple (once I started reading the documentation carefully), but the better solution – because I want to do four different things to l elements – turned out to be to use the modelGrp feature. It is a kind of nest into which I put my four l models. The solution is more elegant, but I had a feeling that it is somewhat laconically described in the documentation, and I had to find out the harder way that you cannot have an separate model (outside the modelGrp group) and the modelGrp at the same time; when I tried to save the ODD, an error was reported, not saying where the error was.
+At first I wrote four models for four different `l[@enjamb]` element types, including the one which does not have the attribute. In the models I changed the CSS rules for color. The procedure was relatively simple (once I started reading the documentation carefully), but the better solution – because I want to do four different things to l elements – turned out to be to use the [modelGrp](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-modelGrp.html) feature. It is a kind of nest into which I put my four `l` models. The solution is more elegant, but I had a feeling that it is somewhat laconically described in the documentation, and I had to find out the harder way that you cannot have an separate `model` element (outside the `modelGrp` group) and the `modelGrp` at the same time; when I tried to save the ODD, an error was reported, not saying where the error was.
 
 The eventual solution:
 
@@ -75,7 +75,7 @@ color: #8f0000;
 
 Task 3 turned out to be hard. It took me two or three days to solve. The problem is that I can transform the `@n` value (showing the verse number) into a separate element, but then the element is on the same level as the element holding the verse text. It seemed impossible to wrap the two sibling elements into a new, higher-level one (the parent in XPath).
 
-TEI Publisher has a function for that, and it was clearly visible in its own field in the model form, but the language describing it was a little unspecific to me. The field said: "Define code template to apply to content". I guess the reason for avoiding specificity is that "code" means not only HTML, but LaTeX, Markdown, a lot of other things. Still, it did not help that in the documentation only a LaTeX example was given. If there were a HTML transformation example as well, it would not have taken me so long to achieve that.
+TEI Publisher has a function for that, and it was clearly visible in its own field in the `model` form, but the language describing it was a little unspecific to me. The field said: "Define code template to apply to content". I guess the reason for avoiding specificity is that "code" means not only HTML, but LaTeX, Markdown, a lot of other things. Still, it did not help that in the documentation only a LaTeX example was given. If there were a HTML transformation example as well, it would not have taken me so long to achieve that.
 
 The solution from the same ODD (you can see it at the end of the previous section as well):
 
@@ -85,6 +85,7 @@ The solution from the same ODD (you can see it at the end of the previous sectio
 <pb:template xmlns="" xml:space="preserve"><span n="[[n]]">[[content]]</span></pb:template>
 
 ```
+And the result:
 
 ![Judita, color coded and numbered verses in TEI Publisher, beginning of Canto 3]({{ site.url }}/img/juditalargercolorcode2021-10-24-18-20-00.png "Judita in TEI Publisher, Canto 3")
 
