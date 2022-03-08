@@ -16,6 +16,7 @@ The URI is: [http://lila-erc.eu/data/id/lemma/4450].
 There are two interfaces for humans to search the LiLa lemma bank. One of them is very intuitive, but the other is better suited for complex computational tasks. That other interface uses the query language SPARQL. In it, the task "Find word which the URI points to" translates to:
 
 ```sparql
+
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 # Given a URI (e.g., ""http://lila-erc.eu/data/id/lemma/4450""), retrieve label
