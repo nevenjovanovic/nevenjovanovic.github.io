@@ -11,11 +11,11 @@ The [LiLa (Linking Latin)](https://lila-erc.eu/sparql/) is a ERC project that co
 
 We want to use a particular URI to retrieve its label, to actually know which word the URI points to.
 
-The URI is: [http://lila-erc.eu/data/id/lemma/4450].
+The URI is: (http://lila-erc.eu/data/id/lemma/4450).
 
 There are two interfaces for humans to search the LiLa lemma bank. One of them is very intuitive, but the other is better suited for complex computational tasks. That other interface uses the query language SPARQL. In it, the task "Find word which the URI points to" translates to:
 
-```sparql
+```SPARQL
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -25,6 +25,7 @@ SELECT ?lemma
 {
       <http://lila-erc.eu/data/id/lemma/4450> rdfs:label ?lemma .
 }
+
 ```
 
 Try it yourself on the [LiLa SPARQL interface](https://lila-erc.eu/sparql/).
