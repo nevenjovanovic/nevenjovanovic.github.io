@@ -1,0 +1,126 @@
+---
+layout:     post
+title:      "First experiences with Rescribe desktop tool for OCR"
+subtitle:   "Making a computer read scanned images of a 1709 book in Latin."
+date:       2022-03-14 12:00:00
+author:     "Neven Jovanović"
+header-img: "img/pexels-tobias-bjørkli-1693095.jpg"
+---
+
+At the [International Association for Neo-Latin Studies](http://www.wikidata.org/entity/Q16319503) Vacation School in Bonn, on the theme of [Digital Neo-Latin Studies](https://dnls.hypotheses.org/), [Antonia Karaisl](http://viaf.org/viaf/62161329820052131129) introduced us to [Rescribe](https://rescribe.xyz/rescribe/), "desktop tool for OCR, optimised for historical printed works". We were impressed by Rescribe's results, these days there are a lot of digital facsimiles of old books in Latin, and I could hardly wait to test the software. 
+
+The test was a book by a Jesuit [Ioannes Luccarus (Ivan Lukarević](https://viaf.org/viaf/305596992), (Dubrovnik, 19 Sept 1622 – Rome, 2 March 1709), a posthumous publication of Luccarus' Latin play on [Stanislaus Kostka](http://www.wikidata.org/entity/Q203437): Stanislaus Kostka. Drama sacrum authore patre Ioanne Luccaro, Soc. Jesu. Romae: Ex officina Cajetani Zenobii, 1709. A facsimile of the copy from the National Central Library of Rome is freely available at [Archive.org](https://n2t-dev.n2t.net/ark:/13960/t1jh6kj53) (with the persistent identifier ark:/13960/t1jh6kj53), as [digitized by Google](https://archive.org/details/googlebooks).
+
+The results of my OCR adventure with Rescribe are indeed amazing. Here is the last page of the book (page 42, scan 52), and below you will find OCR as produced by Rescribe, without any changes or corrections. It looks very, very usable:
+
+![Luccari 1709, page 42, png image](img/1709-luccari-kostka-0052.png)
+
+
+```
+
+42 A CT US.
+Pa. Nunc omnis in me vindicis Olympi ruat
+Fragor. Tonantis ira quid ſegnis jaces 2
+Quin vile caput hoc turbine in feſto petis :
+Preme, percute, Feri; Non poteſt in me tut
+Eirare fulmen. Fratris hic peſtem vides.
+Egomet pudicum, ſobrium, mitem, pium
+Superis amicum, luce perfuſum ſacra,
+ILntaminatum labe, prodigiis gravem
+Immitis, excors, durus, implacabilis
+PFratrem Tyrannus expuli. Aſſultus meos,
+Meos furores fugit. Heu quæ nunc vagus
+Deſerta luſtras loca peregrino pede ?
+Ubi frater erras ? forſan immanis fera
+Tuo cruore luſit. O luctus patris l
+Ocivium ſpes irrita O matris dolor
+O lux abacta patriæ o fratris ſcelus!
+Crat. Fletus inanes amove, ac potius tuo
+Gratare fratri, vota qui cordi tenet-
+Non ille te, ſed gravibus effugit malis
+Mundum ſcatentem. Roma terrarum caput
+Juveni viarum eſt meta; nec honorum fame
+Stimulatus arces ille Romuleas petit;
+Sed amoris actus ſlamine. Ibi ſacros colet
+Jeſu penates Cantabri miles Ducis.
+.a. Si vota cordis obtines frater, licet
+Tibi gratulari jure. Tu Cœlum rapis,
+Terram reliquis mini; Sed affectus meos
+Ipſe quoque ad Aſtra transferam. Tecum juva
+Sociare corda Tendere in Cęlum juvat.
+Gor. Portenta rerum mira Perfidiam in fidem,
+Odium in amorem Numinis mutat manus-
+Hoſpitia ſubeunt noſtra concordi gradu
+Religio, Pietes, Pax, Fides, Pudor, Salus.
+Nos ergo tot cęleſtibus ovantes bonis
+Raũt colamus proſperum plauſu Diem,
+-ÆN-
+ſõ f I N I S.
+N,
+b .
+.&5 dm ︎4 h
+&α
+︎n
+& . ]
+-
+-
+-
+
+```
+
+For comparison, here is the OCR available from the Archive.org (done by ABBYY FineReader 11.0):
+
+```
+
+42 • A C! T U S . 
+
+ra. Nunc omnls in mc vindicis Olympi ruat 
+Fraqor . Tonaniis iraquid fcgnis jaccs/ 
+Quin vilc caput hoc turbinc in feflo pctis / 
+Pfcmc , pcrcuic, Fcri ; Nonpotcft in me tuui 
+Eirarc fulmc n . Fratris hic pcftem vidcs . 
+ligomct pudicum « fobrium t mitem t pium t 
+Supcris amicum , lucc pcrfufum facra , 
+Intaminatum labc i prodigiisgravcm 
+^ Immitis , cxccrs , durus , implacabilis 
+Fraircm Tyrannuscxpuli . Affultus meo6 1 
+Mco^ furorcs fugit . Hcu qux nunc vagus 
+Dcfcrta iuftras loca pcrcgrino pcdc / 
+Ubi fraccrerras / forfan immanis fcra 
+'Tuocruorc lufit • O luftus patris I 
+OcivJum fpes irrita J O matris dolor ! 
+O lux abafta patria! ! o fratris fcclus ! 
+
+Crat. Flctus inancs amovc , ac potius tuo 
+Gratarc fratri t vota qui cordij tcnct • 
+Non illc tc 1 fcd gravibus cfFugit malis 
+Mundum fcatentcm . Roma terrarum caput 
+Juvcni viarum cft meta ; ncc honorum famc 
+Stimulatus arccs illc Romulcas pctit ; < 
+Scd amoris aftus flamine . ibi facros colct 
+Jcfu penaitsCantabri miles Ducis . 
+
+3P<j. Si vota cordis obtincs fratcr % licct 
+Tibi gratulari jurc . Tu Coelum rapis ♦ 
+Tcrram rcliquismmi ; 
+Ipfc quoque ad Aftra iransferam.Tecum juvat 
+Sociare corda . Tendere in Cq\um j«va« • 
+^ 'Cot ' Portenta rerum mira ! Pcrfidiam in fidem t 
+Odium in amorem Numinis murat manus. 
+Hofpitia fubeunt noftra concordi gradu 
+
+Rcligio , Pietes , Pax , Fides , Pudor , Salus . 
+>v. Nos ergo tot c^lcftibws ovantes bonis 
+/^^^fto colamus profperum plaufu Dicm , 
+
+
+
+Googlj 
+
+```
+
+On my long-serving [Thinkpad X220](http://www.wikidata.org/entity/Q86374335) (running [Manjaro Linux](http://www.wikidata.org/entity/Q3285992)) Rescribe worked without any hiccups. The only stumbling point with Rescribe was *exactly* four-digit ending of the png filename (I did not read closely, and had three digits in the name), which the instructions *very explicitly* warn you about.
+
+Rescribe is a great tool, many thanks to people who are developing it!
+
+(Photo by [Monstera](https://www.pexels.com/@gabby-k) from Pexels.)
