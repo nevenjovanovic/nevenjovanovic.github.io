@@ -4,7 +4,7 @@ title:      "First experiences with Rescribe desktop tool for OCR"
 subtitle:   "Making a computer read scanned images of a 1709 book in Latin."
 date:       2022-03-14 12:00:00
 author:     "Neven Jovanović"
-header-img: "img/pexels-tobias-bjørkli-1693095.jpg"
+header-img: "img/pexels-monstera-7794451.jpg"
 ---
 
 At the [International Association for Neo-Latin Studies](http://www.wikidata.org/entity/Q16319503) Vacation School in Bonn, on the theme of [Digital Neo-Latin Studies](https://dnls.hypotheses.org/), [Antonia Karaisl](http://viaf.org/viaf/62161329820052131129) introduced us to [Rescribe](https://rescribe.xyz/rescribe/), "desktop tool for OCR, optimised for historical printed works". We were impressed by Rescribe's results, these days there are a lot of digital facsimiles of old books in Latin, and I could hardly wait to test the software. 
