@@ -7,11 +7,11 @@ author:     "Neven Jovanović"
 header-img: "img/pexels-monstera-7794451.jpg"
 ---
 
-At the [International Association for Neo-Latin Studies](http://www.wikidata.org/entity/Q16319503) Vacation School in Bonn, on the theme of [Digital Neo-Latin Studies](https://dnls.hypotheses.org/), [Antonia Karaisl](http://viaf.org/viaf/62161329820052131129) introduced us to [Rescribe](https://rescribe.xyz/rescribe/), "desktop tool for OCR, optimised for historical printed works". We were impressed by Rescribe's results, these days there are a lot of digital facsimiles of old books in Latin, and I could hardly wait to test the software. 
+At the [International Association for Neo-Latin Studies](http://www.wikidata.org/entity/Q16319503) Vacation School in Bonn, on the theme of [Digital Neo-Latin Studies](https://dnls.hypotheses.org/), [Antonia Karaisl](http://viaf.org/viaf/62161329820052131129) introduced us to [Rescribe](https://rescribe.xyz/rescribe/), "desktop tool for OCR, optimised for historical printed works". We were impressed by Rescribe's results. These days there are a lot of digital facsimiles of old books in Latin and I could hardly wait to test the software myself. 
 
-The test was a book by a Jesuit [Ioannes Luccarus (Ivan Lukarević](https://viaf.org/viaf/305596992), (Dubrovnik, 19 Sept 1622 – Rome, 2 March 1709), a posthumous publication of Luccarus' Latin play on [Stanislaus Kostka](http://www.wikidata.org/entity/Q203437): Stanislaus Kostka. Drama sacrum authore patre Ioanne Luccaro, Soc. Jesu. Romae: Ex officina Cajetani Zenobii, 1709. A facsimile of the copy from the National Central Library of Rome is freely available at [Archive.org](https://n2t-dev.n2t.net/ark:/13960/t1jh6kj53) (with the persistent identifier ark:/13960/t1jh6kj53), as [digitized by Google](https://archive.org/details/googlebooks).
+The test was a book by a Jesuit [Ioannes Luccarus (Ivan Lukarević](https://viaf.org/viaf/305596992), Dubrovnik, 19 Sept 1622 – Rome, 2 March 1709), a posthumous publication of Luccarus' Latin play on [Stanislaus Kostka](http://www.wikidata.org/entity/Q203437): Stanislaus Kostka. Drama sacrum authore patre Ioanne Luccaro, Soc. Jesu. Romae: Ex officina Cajetani Zenobii, 1709. A facsimile of the copy from the National Central Library of Rome is freely available at [Archive.org](https://n2t-dev.n2t.net/ark:/13960/t1jh6kj53) (with the persistent identifier `ark:/13960/t1jh6kj53`), as [digitized by Google](https://archive.org/details/googlebooks).
 
-The results of my OCR adventure with Rescribe are indeed amazing. Here is the last page of the book (page 42, scan 52), and below you will find OCR as produced by Rescribe, without any changes or corrections. It looks very, very usable:
+The results of my OCR adventure with Rescribe are indeed amazing. Here is the last page of the book (page 42, scan 52) and below the image you will find OCR as produced by Rescribe, without any changes or corrections. It looks very, very usable:
 
 ![Luccari 1709, page 42, png image](/docs/assets/images/1709-luccari-kostka-0052.png)
 
@@ -68,7 +68,7 @@ b .
 
 ```
 
-For comparison, here is the OCR available from the Archive.org (done by ABBYY FineReader 11.0):
+For comparison, here is the OCR available from the Archive.org (done with [ABBYY FineReader 11.0](http://www.wikidata.org/entity/Q1416880)):
 
 ```
 
