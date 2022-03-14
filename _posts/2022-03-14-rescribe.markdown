@@ -123,4 +123,14 @@ On my long-serving [Thinkpad X220](http://www.wikidata.org/entity/Q86374335) (ru
 
 Rescribe is a great tool, many thanks to people who are developing it!
 
-(Photo by [Monstera](https://www.pexels.com/@gabby-k) from Pexels.)
+## Technical details
+
+The following steps were done on Linux command line:
+
+1. Export images for pages 3-52 from the archive.org DJVU file (all images in ppm format, black and white), add page numbering (four digits): `ddjvu -format=pnm -page=3-52 -eachpage lukarevic-kostka-bub_gb_ldx6wPj7IMMC.djvu lucc-kostka%04d.ppm`
+2. Convert PPM images to PNG: `mogrify -format png *.ppm`
+3. Run Rescribe on all PNG files in the `lucc/png` directory: `/rescribe lucc/png/`
+
+And that is all!
+
+(Doors photo by [Monstera](https://www.pexels.com/@gabby-k) from Pexels.)
