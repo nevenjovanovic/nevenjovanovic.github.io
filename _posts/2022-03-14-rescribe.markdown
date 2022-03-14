@@ -13,7 +13,7 @@ The test was a book by a Jesuit [Ioannes Luccarus (Ivan Lukarević](https://viaf
 
 The results of my OCR adventure with Rescribe are indeed amazing. Here is the last page of the book (page 42, scan 52), and below you will find OCR as produced by Rescribe, without any changes or corrections. It looks very, very usable:
 
-![Luccari 1709, page 42, png image](img/1709-luccari-kostka-0052.png)
+![Luccari 1709, page 42, png image](/docs/assets/images/1709-luccari-kostka-0052.png)
 
 
 ```
